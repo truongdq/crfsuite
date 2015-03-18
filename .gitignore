@@ -1,0 +1,15 @@
+*/*/*.lo
+*/*/*.o
+*/*.o
+*/*.lo
+*/*/*.la
+lib/crf/.libs/
+lib/crf/.deps/
+lib/cqdb/.libs/
+lib/cqdb/.deps/
+*/.libs
+*/.deps
+installed/
+autom4te.cache/
+*m4*
+depcomp

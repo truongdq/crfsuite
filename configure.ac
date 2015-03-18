@@ -14,7 +14,6 @@ AC_PREREQ(2.59)
 AC_INIT
 AC_CONFIG_SRCDIR([frontend/main.c])
 AC_CONFIG_MACRO_DIR([m4])
-
 dnl ------------------------------------------------------------------
 dnl Checks for system
 dnl ------------------------------------------------------------------
@@ -30,7 +29,6 @@ dnl ------------------------------------------------------------------
 AM_INIT_AUTOMAKE(crfsuite, 0.12)
 AC_CONFIG_HEADERS(config.h)
 AM_MAINTAINER_MODE
-AM_C_PROTOTYPES
 
 
 dnl ------------------------------------------------------------------
